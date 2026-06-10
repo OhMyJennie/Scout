@@ -37,7 +37,7 @@ export function TripScreen() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
           </span>
           <span className="text-xs text-emerald-800 font-medium">
-            You're here — audio ready
+            You&apos;re here — audio ready
           </span>
         </div>
       </div>

@@ -80,7 +80,7 @@ export default function DemoPage() {
           <div className="hidden lg:block lg:max-w-sm pt-8">
             <div className="bg-white border border-rule rounded-2xl p-5 shadow-card">
               <p className="text-xs font-semibold uppercase tracking-widest text-ink-muted mb-2">
-                What's on screen
+                What&apos;s on screen
               </p>
               <ul className="text-sm text-ink-muted leading-relaxed space-y-1.5">
                 {tab === "plan" && (
@@ -92,7 +92,7 @@ export default function DemoPage() {
                 )}
                 {tab === "trip" && (
                   <>
-                    <li>· Geofence "you&apos;re here" pill</li>
+                    <li>· Geofence &ldquo;you&apos;re here&rdquo; pill</li>
                     <li>· Brief / Deep dive audio toggle</li>
                     <li>· Film, music, and book anchor cards</li>
                   </>
@@ -101,7 +101,7 @@ export default function DemoPage() {
                   <>
                     <li>· Diary / Essay / Letter style picker</li>
                     <li>· Three pre-generated chapters</li>
-                    <li>· Scout's lines preserved as callouts</li>
+                    <li>· Scout&apos;s lines preserved as callouts</li>
                   </>
                 )}
               </ul>

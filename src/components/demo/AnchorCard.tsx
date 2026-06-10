@@ -36,7 +36,7 @@ export function AnchorCard({ anchor, compact = false }: AnchorCardProps) {
               <span className="text-ink-muted">{anchor.sceneNote}</span>
             </div>
             <p className="text-xs italic text-ink-muted leading-relaxed">
-              "{anchor.reviewExcerpt}"
+              &ldquo;{anchor.reviewExcerpt}&rdquo;
             </p>
             <p className="text-[10px] text-ink-muted">— via {anchor.reviewSource}</p>
           </div>
@@ -93,7 +93,7 @@ export function AnchorCard({ anchor, compact = false }: AnchorCardProps) {
           </div>
           {!compact && (
             <p className="mt-2 text-xs italic text-ink-muted leading-relaxed border-l-2 border-book/40 pl-2">
-              "{anchor.excerpt}"
+              &ldquo;{anchor.excerpt}&rdquo;
             </p>
           )}
         </div>
